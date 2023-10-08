@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /*try playing around with this*/
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    color: #333;
+}
+.input-container{
+    margin-top: 20px;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor:pointer;
+}
+button:hover {
+    background-color: #555;
+
+}
+ul{
+ list-style: none;
+ padding: 0;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+}
