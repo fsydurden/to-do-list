@@ -26,7 +26,7 @@ function addTask() {
 // Event listener for adding a task
 addTaskButton.addEventListener("click", addTask);
 
-// Event listener for adding a task when Enter key is pressed
+// Event listener for adding a task when Enter key is pressed 
 taskInput.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
         addTask();
